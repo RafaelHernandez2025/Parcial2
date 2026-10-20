@@ -39,16 +39,16 @@ class InventarioApp(QMainWindow):
         titulo.setStyleSheet("font-size: 18px; font-weight: bold; color: #2C3E50; margin-bottom: 10px;")
         main_layout.addWidget(titulo)
 
-        # Pestañas
+        # ventanas
         self.tabs = QTabWidget()
         main_layout.addWidget(self.tabs)
 
-        # Tab 1: Tabla con datos del CSV
+        #  Tabla 
         self.tab_tabla = QWidget()
         self.init_tab_tabla()
         self.tabs.addTab(self.tab_tabla, "Inventario general")
 
-        # Tab 2: Gráficos de Matplotlib
+        #Gráficos 
         self.tab_graficos = QWidget()
         self.init_tab_graficos()
         self.tabs.addTab(self.tab_graficos, "Análisis grafico")
@@ -75,7 +75,7 @@ class InventarioApp(QMainWindow):
     def init_tab_graficos(self):
         layout = QHBoxLayout(self.tab_graficos)
 
-        # Gráfico 1: Unidades en Stock por Sucursal
+        
         self.canvas_stock = MatplotlibCanvas(self, width=5, height=4, dpi=100)
         stock_por_sucursal = self.df.groupby('sucursal')['stock'].sum()
         
@@ -86,7 +86,7 @@ class InventarioApp(QMainWindow):
         ax1.tick_params(axis='x', rotation=25)
         ax1.bar_label(bars1, padding=3)
 
-        # Gráfico 2: Valor Total del Inventario ($ USD) por Sucursal
+        # Grsfico 2
         self.canvas_valor = MatplotlibCanvas(self, width=5, height=4, dpi=100)
         self.df['valor_total'] = self.df['stock'] * self.df['precio_unitario']
         valor_por_sucursal = self.df.groupby('sucursal')['valor_total'].sum()
