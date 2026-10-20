@@ -1,0 +1,51 @@
+id_producto,nombre_producto,sucursal,stock,precio_unitario
+PRD-1001,"Laptop HP 15""",San Salvador,112,682.15
+PRD-1002,Teclado Mecánico RGB,San Salvador,24,628.9
+PRD-1003,Mouse Inalámbrico,San Salvador,30,153.72
+PRD-1004,"Monitor 24"" IPS",San Salvador,84,403.88
+PRD-1005,Impresora Multifuncional,San Salvador,126,520.92
+PRD-1006,Disco SSD 1TB,San Salvador,140,41.98
+PRD-1007,Memoria RAM 16GB,San Salvador,11,620.65
+PRD-1008,Router Wi-Fi 6,San Salvador,47,25.64
+PRD-1009,Audífonos Gamer,San Salvador,30,534.42
+PRD-1010,"Tablet 10""",San Salvador,67,457.92
+PRD-1011,"Laptop HP 15""",Santa Ana,98,265.26
+PRD-1012,Teclado Mecánico RGB,Santa Ana,68,354.89
+PRD-1013,Mouse Inalámbrico,Santa Ana,24,401.26
+PRD-1014,"Monitor 24"" IPS",Santa Ana,60,340.53
+PRD-1015,Impresora Multifuncional,Santa Ana,73,410.08
+PRD-1016,Disco SSD 1TB,Santa Ana,60,586.25
+PRD-1017,Memoria RAM 16GB,Santa Ana,82,78.67
+PRD-1018,Router Wi-Fi 6,Santa Ana,141,802.32
+PRD-1019,Audífonos Gamer,Santa Ana,23,691.93
+PRD-1020,"Tablet 10""",Santa Ana,18,38.17
+PRD-1021,"Laptop HP 15""",San Miguel,139,589.49
+PRD-1022,Teclado Mecánico RGB,San Miguel,120,588.69
+PRD-1023,Mouse Inalámbrico,San Miguel,17,53.37
+PRD-1024,"Monitor 24"" IPS",San Miguel,90,238.49
+PRD-1025,Impresora Multifuncional,San Miguel,113,648.17
+PRD-1026,Disco SSD 1TB,San Miguel,143,196.55
+PRD-1027,Memoria RAM 16GB,San Miguel,13,177.5
+PRD-1028,Router Wi-Fi 6,San Miguel,53,800.09
+PRD-1029,Audífonos Gamer,San Miguel,23,625.0
+PRD-1030,"Tablet 10""",San Miguel,24,98.01
+PRD-1031,"Laptop HP 15""",La Libertad,49,721.74
+PRD-1032,Teclado Mecánico RGB,La Libertad,91,470.25
+PRD-1033,Mouse Inalámbrico,La Libertad,33,319.32
+PRD-1034,"Monitor 24"" IPS",La Libertad,133,252.7
+PRD-1035,Impresora Multifuncional,La Libertad,24,161.35
+PRD-1036,Disco SSD 1TB,La Libertad,98,839.18
+PRD-1037,Memoria RAM 16GB,La Libertad,97,350.78
+PRD-1038,Router Wi-Fi 6,La Libertad,145,29.56
+PRD-1039,Audífonos Gamer,La Libertad,148,189.04
+PRD-1040,"Tablet 10""",La Libertad,145,626.43
+PRD-1041,"Laptop HP 15""",Sonsonate,42,524.92
+PRD-1042,Teclado Mecánico RGB,Sonsonate,50,779.84
+PRD-1043,Mouse Inalámbrico,Sonsonate,81,395.8
+PRD-1044,"Monitor 24"" IPS",Sonsonate,42,77.44
+PRD-1045,Impresora Multifuncional,Sonsonate,71,293.28
+PRD-1046,Disco SSD 1TB,Sonsonate,108,512.82
+PRD-1047,Memoria RAM 16GB,Sonsonate,44,414.58
+PRD-1048,Router Wi-Fi 6,Sonsonate,110,826.66
+PRD-1049,Audífonos Gamer,Sonsonate,140,652.65
+PRD-1050,"Tablet 10""",Sonsonate,112,58.36
