@@ -20,7 +20,7 @@ class InventarioApp(QMainWindow):
         self.setWindowTitle("Sistema de Gestión de Inventario - Sucursales El Salvador")
         self.setGeometry(100, 100, 1050, 700)
         
-        # Cargar el archivo CSV generado
+        # hacer que carge el .csv
         try:
             self.df = pd.read_csv('inventario_sucursales.csv')
         except FileNotFoundError:
